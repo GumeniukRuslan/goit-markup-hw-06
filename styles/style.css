@@ -43,7 +43,7 @@ p, ul{
 }
 .logo-link {
   color: var(--accent-color);
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -571,6 +571,7 @@ padding-bottom: 94px;
 .footer-container{
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 .footer-social{
   background: rgba(255, 255, 255, 0.1);
@@ -581,7 +582,7 @@ padding-bottom: 94px;
   display: block;
 }
 .subscribe-form{
-  margin-left: 70px;
+  margin-left: 93px;
 }
 .subscribe-container{
   display: flex;
